@@ -1,8 +1,28 @@
-* {
+html {
     background-color: maroon;
 }
 
 h1 {
     text-align: center;
-    color: black;
+    align-self: center;
+    color: white;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 5px;
+    
+}
+
+div.title {
+    width: fit-content;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline;
 }
